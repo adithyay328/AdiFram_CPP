@@ -1,0 +1,1 @@
+target_include_directories(XMLModule PUBLIC "${CMAKE_CURRENT_SOURCE}")

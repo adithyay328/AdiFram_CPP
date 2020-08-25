@@ -1,7 +1,7 @@
 Thread pool to be used by programs
 Embedded SQL database with persistence
 ORM for SQL database in (2)
-XML Parser
+XML Parser(imported pugixml, new API and tests will be completed in the future)
 JSON Parser
 Networking Library
 HTTP/HTTPS Library
