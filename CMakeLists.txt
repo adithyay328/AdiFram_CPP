@@ -13,5 +13,6 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 #And so will libraries
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
-#XML module is stored in this directory with its own CMakelist
+#Adding subdirectories for all modules of the Framework
 add_subdirectory(xml)
+add_subdirectory(sorting)
