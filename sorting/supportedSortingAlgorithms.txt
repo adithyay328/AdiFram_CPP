@@ -1,10 +1,4 @@
-<<<<<<< Updated upstream
 Selection Sort
 Insertion Sort
 Merge Sort(single threaded and multi-threaded)
-Quick Sort(single threaded and multi-threaded)
-=======
-Merge Sort
-Quick Sort
-Radix Sort
->>>>>>> Stashed changes
+
