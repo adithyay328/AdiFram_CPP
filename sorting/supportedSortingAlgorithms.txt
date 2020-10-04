@@ -1,0 +1,4 @@
+Selection Sort
+Insertion Sort
+Merge Sort
+
