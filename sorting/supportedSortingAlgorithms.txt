@@ -1,4 +1,4 @@
 Selection Sort
 Insertion Sort
-Merge Sort(single threaded and multi-threaded)
+Merge Sort
 
