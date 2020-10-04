@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/app/src/Main.cpp
+pugixml.hpp
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/app/src/pugixml.hpp
+

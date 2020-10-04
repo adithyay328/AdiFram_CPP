@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/adifram_cpp/sorting/src/InsertionSort.cpp
+vector
+-
+Sorting.hpp
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/adifram_cpp/sorting/src/Sorting.hpp
+
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/adifram_cpp/sorting/src/MergeSort.cpp
+vector
+-
+Sorting.hpp
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/adifram_cpp/sorting/src/Sorting.hpp
+
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/adifram_cpp/sorting/src/SelectionSort.cpp
+vector
+-
+Sorting.hpp
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/adifram_cpp/sorting/src/Sorting.hpp
+
+/home/adithyay328/Documents/SoftwareProjects/AdiFram_CPP/adifram_cpp/sorting/src/Sorting.hpp
+vector
+-
+

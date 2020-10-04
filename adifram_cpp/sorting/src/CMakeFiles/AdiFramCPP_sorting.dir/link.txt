@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libAdiFramCPP_sorting.a  CMakeFiles/AdiFramCPP_sorting.dir/InsertionSort.cpp.o CMakeFiles/AdiFramCPP_sorting.dir/MergeSort.cpp.o CMakeFiles/AdiFramCPP_sorting.dir/SelectionSort.cpp.o
+/usr/bin/ranlib ../../../lib/libAdiFramCPP_sorting.a

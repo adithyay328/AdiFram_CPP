@@ -1,0 +1,5 @@
+add_subdirectory(sorting)
+add_subdirectory(xml)
+
+add_custom_target(AdiFramCPP)
+add_dependencies(AdiFramCPP AdiFramCPP_sorting AdiFramCPP_xml)
