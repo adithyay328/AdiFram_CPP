@@ -5,4 +5,4 @@ MergeSort.cpp
 SelectionSort.cpp
 )
 
-target_include_directories(AdiFramCPP_sorting PUBLIC $(CMAKE_CURRENT_SOURCE_DIR))
+include_directories(AdiFramCPP_sorting PUBLIC $(CMAKE_CURRENT_SOURCE_DIR))

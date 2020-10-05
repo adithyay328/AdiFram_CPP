@@ -1,3 +1,3 @@
 add_executable(app Main.cpp)
 
-add_dependencies(app AdiFramCPP)
+target_link_libraries(app PUBLIC AdiFramCPP_xml)
