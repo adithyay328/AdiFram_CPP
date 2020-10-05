@@ -1,0 +1,5 @@
+add_subdirectory(sorting)
+add_subdirectory(xml)
+
+add_library(AdiFramCPP INTERFACE)
+target_link_libraries(AdiFramCPP INTERFACE AdiFramCPP_sorting AdiFramCPP_xml)

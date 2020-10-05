@@ -1,0 +1,29 @@
+Thread pool to be used by programs
+Embedded SQL database with persistence
+ORM for SQL database in (2)
+XML Parser(imported pugixml, new API and tests will be completed in the future)
+JSON Parser
+Networking Library
+HTTP/HTTPS Library
+GUI Library
+Audio library
+Embedded key-value database with persistence(similar to redis in functionality)
+Embedded document-based database with persistence
+Cryptography Library
+Command Line Development Library
+Logging Library
+App Monitoring Library
+Sorting Library
+SSH Interaction Library
+Unit Testing Library
+Inversion of control and Dependency Injection framework
+Web Scraping Library
+Embedded Web Server Library
+Micro-services oriented Networking Library
+Translation Library for automatic UI Translation
+Google Text-To-Speech Integration Library for dictation
+Google Speech-to-Text library for voice control
+Google Assistant Integration Library for google Assistant control
+Cloud Computing Control Library for Google Cloud
+Twillio SMS Integration for SMS Inegrated Apps
+Stripe Integration for money management

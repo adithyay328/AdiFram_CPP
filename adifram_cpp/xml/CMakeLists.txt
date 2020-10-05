@@ -1,0 +1,1 @@
+add_subdirectory(pugixml-1.10/src)
