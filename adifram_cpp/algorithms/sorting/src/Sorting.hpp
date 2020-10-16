@@ -4,8 +4,17 @@
 
 namespace sorting {
     namespace singlethreaded {
-        void selectionSort_numeric(std::vector<double>* inputList);
-        void insertionSort_numeric(std::vector<double>* inputList);
-        void mergeSort_numeric(std::vector<double> &inputList, std::vector<double> &result);
+        template <typename T>
+        void selectionSort_numeric(std::vector<T>& inputList);
+
+        template <typename T>
+        void insertionSort_numeric(std::vector<T>& inputList);
+
+        template <typename T>
+        void mergeSort_numeric(std::vector<T>& inputList, std::vector<T>& result);
     }
 }
+
+#include "SelectionSort.cpp"
+#include "InsertionSort.cpp"
+#include "MergeSort.cpp"

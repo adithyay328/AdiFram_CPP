@@ -1,8 +1,11 @@
+#pragma once
+
 #include <vector>
 #include "Sorting.hpp"
 
 //Merge 2 smaller vectors into 1 bigger vector
-void mergeVectors(std::vector<double> &firstHalf, std::vector<double> &secondHalf, std::vector<double> &result) {
+template <typename T>
+void mergeVectors(std::vector<T>& firstHalf, std::vector<T>& secondHalf, std::vector<T>& result) {
     result.reserve(firstHalf.size() + secondHalf.size());
 
     //Saving indices so that we don't have to delete the first element in the vector every time we move one element
@@ -32,18 +35,19 @@ void mergeVectors(std::vector<double> &firstHalf, std::vector<double> &secondHal
     }
 }
 
-void sorting::singlethreaded::mergeSort_numeric(std::vector<double> &inputList, std::vector<double> &result) {
+template <typename T>
+void sorting::singlethreaded::mergeSort_numeric(std::vector<T>& inputList, std::vector<T>& result) {
     if(inputList.size() > 1) {
         //Initializing firstHalf and secondHalf with vector range constructor
         auto middleIterator = inputList.begin() + (int(inputList.size()) / 2);
-        std::vector<double> firstHalf(inputList.begin(), middleIterator);
-        std::vector<double> secondHalf(middleIterator, inputList.end());
+        std::vector<T> firstHalf(inputList.begin(), middleIterator);
+        std::vector<T> secondHalf(middleIterator, inputList.end());
 
-        std::vector<double> firstHalfSorted;
+        std::vector<T> firstHalfSorted;
         firstHalfSorted.reserve(firstHalf.size());
         mergeSort_numeric(firstHalf, firstHalfSorted);
 
-        std::vector<double> secondHalfSorted;
+        std::vector<T> secondHalfSorted;
         secondHalfSorted.reserve(firstHalf.size());
         mergeSort_numeric(secondHalf, secondHalfSorted);
 
