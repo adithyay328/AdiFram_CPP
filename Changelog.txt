@@ -1,5 +1,6 @@
 v0.2 alpha(unreleased):
 Reworked sorting algorithm interface to use referenes, and templates to support any type
+Added JSON support
 
 v0.1 alpha(develop commit 2c41818d0b4350a506e46694b8ff11566bca770b):
 Organized framework
