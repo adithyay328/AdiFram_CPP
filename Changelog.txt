@@ -1,4 +1,4 @@
-v0.2 alpha(unreleased):
+v0.2 alpha(develop commit d6aa7911cc3f88ac7d2225e9c061d55be72b1936):
 Reworked sorting algorithm interface to use referenes, and templates to support any type
 Added JSON support
 
