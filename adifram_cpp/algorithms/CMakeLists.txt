@@ -1,0 +1,4 @@
+add_subdirectory(sorting)
+
+add_library(AdiFramCPP_algorithms INTERFACE)
+target_link_libraries(AdiFramCPP_algorithms INTERFACE AdiFramCPP_sorting)
